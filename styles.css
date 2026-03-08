@@ -5,7 +5,7 @@
 }
 
 :root {
-  --primary: #00b7af;
+  --primary: #e02020;
   --dark: #10181f;
   --light: #ffffff;
   --gray: #6a7071;
@@ -48,7 +48,7 @@ html, body {
 .orb-2 {
   width: 35vw;
   height: 35vw;
-  background: #0077cc;
+  background: #aa0000;
   bottom: -5%;
   right: -5%;
   animation-duration: 24s;
@@ -90,11 +90,11 @@ html, body {
   text-align: center;
   padding: 4vw 6vw;
   background: rgba(255, 255, 255, 0.04);
-  border: 1px solid rgba(0, 183, 175, 0.2);
+  border: 1px solid rgba(220, 50, 50, 0.2);
   border-radius: 2vw;
   backdrop-filter: blur(20px);
   box-shadow:
-    0 0 60px rgba(0, 183, 175, 0.08),
+    0 0 60px rgba(220, 50, 50, 0.08),
     0 30px 80px rgba(0, 0, 0, 0.4);
   animation: fadeIn 1.2s ease forwards;
 }
@@ -124,7 +124,7 @@ html, body {
 .world {
   font-size: clamp(3rem, 10vw, 10rem);
   font-weight: 800;
-  background: linear-gradient(135deg, var(--primary), #00e5de);
+  background: linear-gradient(135deg, var(--primary), #ff6666);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
